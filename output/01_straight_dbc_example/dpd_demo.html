@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head>
+   
+   
+   
+   <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+   <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-110532047-3"></script>
+<script src="/static/cookielaw/js/cookielaw.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110532047-3');
+</script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+   
+   <link rel="stylesheet" type="text/css" href="/static/backend/css/backend.css">
+
+   
+   <title>Django Plotly Dash Examples - Demo Seven - Dash Bootstrap Components</title>
+ </head>
+ <body>
+   <header>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <div class="navbar-nav">
+         <a class="navbar-brand" href="#">
+           <img class="dpd-logo" src="/static/demo/logo.svg" alt="Logo">
+         </a>
+         
+   <a class="nav-item nav-link btn btn-lg" href="/">Home</a>
+   <a class="nav-item nav-link btn btn-lg" href="/code-demo">Code Demo</a>
+
+   <a class="nav-item nav-link btn btn-lg btn-social-icon btn-github" target="_blank" href="https://github.com/GibbsConsulting/django-plotly-dash">
+  <span class="fab fa-github fa-1x"></span> GitHub Repository
+</a>
+<a class="nav-item nav-link btn btn-lg btn-social-icon" target="_blank" href="https://django-plotly-dash.readthedocs.io/en/latest/">
+  Online Documentation
+</a>
+
+   <a class="nav-item nav-link btn btn-lg" href="/login/">Login</a>
+
+
+       </div>
+     </nav>
+   </header>
+   <main>
+     
+   <div style="color: red; background-color: yellow;">
+     
+   </div>
+
+     <div class="container">
+       
+<h1>Dash Bootstrap Components</h1>
+<p>
+  This example demonstrates the use of the dash-bootstrap-components package.
+</p>
+<div class="card bg-light border-dark">
+  <div class="card-body">
+    <p><span>{</span>% load plotly_dash %}</p>
+    <p>&lt;div class="container"&gt;</p>
+    <p>&lt;div class="row"&gt; &lt;div class="col-sm-6"&gt;</p>
+    <p class="ml-2">&lt;div class="<span>{</span>% plotly_class name="BootstrapApplication"%}"&gt;</p>
+    <p class="ml-3"><span>{</span>% plotly_app_bootstrap name="BootstrapApplication" aspect="21by9" %}</p>
+    <p class="ml-2">&lt;\div&gt;</p>
+    <p>&lt;\div&gt; &lt;\div&gt;</p>
+  </div>
+</div>
+<p></p>
+<div class="card border-dark">
+  <div class="card-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="django-plotly-dash django-plotly-dash-iframe django-plotly-dash-app-bootstrapapplication">
+            <div class="embed-responsive embed-responsive-21by9">
+  <iframe src="/django_plotly_dash/app/BootstrapApplication/" class="embed-responsive-item"></iframe>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+     </div>
+   </main>
+   
+<footer class="footer">
+  <div class="container">
+    <p class="float-left">
+      <span class="text-muted"><span class="far fa-copyright"></span> Gibbs Consulting, a division of 0802100 (BC) Limited. All rights reserved.</span>
+    </p>
+    <p class="float-right">
+      <a class="text-muted btn" href="/info/about/">About us</a>
+      <a class="text-muted btn" href="/info/privacy/">Privacy</a>
+      <a class="text-muted btn" href="/info/terms-and-conditions/">Terms and Conditions</a>
+    </p>
+  </div>
+</footer>
+
+ 
+ 
+ 
+
+
+</body></html>
